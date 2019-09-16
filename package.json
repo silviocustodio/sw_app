@@ -1,0 +1,67 @@
+{
+  "name": "sw_app",
+  "version": "1.0.0",
+  "description": "Star Wars API (https://swapi.co/), build a React app",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.4.2",
+    "axios": "^0.16.2",
+    "babel": "^6.23.0",
+    "babel-preset-stage-1": "^6.1.18",
+    "lodash": "^3.10.1",
+    "material-ui": "^0.19.4",
+    "material-ui-search-bar": "^0.4.1",
+    "multi": "^0.1.3",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-giphy": "0.0.1",
+    "react-giphy-picker": "^1.0.0",
+    "react-redux": "4.3.0",
+    "react-router": "^2.0.1",
+    "redux": "^3.7.2",
+    "redux-multi": "^0.1.12",
+    "redux-promise": "^0.5.3",
+    "redux-thunk": "^2.3.0",
+    "superagent": "^3.5.2",
+    "thunk": "0.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "chai": "^3.5.0",
+    "chai-jquery": "^2.0.0",
+    "jquery": "^2.2.1",
+    "jsdom": "^8.1.0",
+    "mocha": "^2.4.5",
+    "nodemon": "^1.14.11",
+    "react-addons-test-utils": "^0.14.7",
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
+    "test:watch": "npm run test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silviocustodio/sw_app.git"
+  },
+  "keywords": [
+    "React",
+    "Redux",
+    "Axios"
+  ],
+  "author": "Silvio Custodio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/silviocustodio/sw_app/issues"
+  },
+  "homepage": "https://github.com/silviocustodio/sw_app#readme"
+}
