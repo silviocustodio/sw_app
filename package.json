@@ -11,7 +11,7 @@
     "axios": "^0.16.2",
     "babel": "^6.23.0",
     "babel-preset-stage-1": "^6.1.18",
-    "lodash": "^3.10.1",
+    "lodash": "^4.17.19",
     "material-ui": "^0.19.4",
     "material-ui-search-bar": "^0.4.1",
     "multi": "^0.1.3",
