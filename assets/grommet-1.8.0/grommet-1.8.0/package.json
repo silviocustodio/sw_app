@@ -76,7 +76,7 @@
     "gulp-sass": "^3.0.0",
     "guppy-pre-commit": "^0.4.0",
     "mkdirp": "^0.5.1",
-    "node-sass": "^4.1.1",
+    "node-sass": "^7.0.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-test-renderer": "^16.0.0",
